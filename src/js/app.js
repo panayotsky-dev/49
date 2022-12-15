@@ -16,19 +16,19 @@ ccname.value ='Enter name on card'
 ccname.setAttribute('name','ccname')
 
 let cardnumber = document.createElement('input');
-cardnumber.type = 'text';
+cardnumber.type = 'number';
 cardnumber.classList.add('input');
 cardnumber.value ='Enter card number'
 cardnumber.setAttribute('name','cardnumber')
 
 let cvc = document.createElement('input');
-cvc.type = 'text';
+cvc.type = 'number';
 cvc.classList.add('input');
 cvc.value ='Enter cvc code'
 cvc.setAttribute('name','cvc')
 
 let ccExp = document.createElement('input');
-ccExp.type = 'text';
+ccExp.type = 'number';
 ccExp.classList.add('input');
 ccExp.value ='Enter exp date'
 ccExp.setAttribute('name','cc-exp')
